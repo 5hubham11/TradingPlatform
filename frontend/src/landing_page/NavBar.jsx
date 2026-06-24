@@ -78,7 +78,7 @@ export default function NavBar() {
               <button
                 className="nav-link btn btn-link nav-custom-link"
                 onClick={() => {
-                  window.location.href = "http://localhost:3000";
+                  window.location.href = "https://tradingplatform-l.onrender.com";
                 }}
               >
                 <MdDashboard className="nav-icon" />
@@ -123,7 +123,7 @@ export default function NavBar() {
                   <button
                     className="dropdown-item"
                     onClick={() => {
-                      window.location.href = "http://localhost:3000";
+                      window.location.href = "https://tradingplatform-l.onrender.com";
                     }}
                   >
                     Dashboard

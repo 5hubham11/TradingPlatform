@@ -4,7 +4,7 @@ import Popup from "./Popup";
 import Home from "./components/Home";
  
 
-
+const API_URL = "https://your-backend-name.onrender.com";
 
 const ProtectedRoute = ( ) => {
   
@@ -17,7 +17,7 @@ const ProtectedRoute = ( ) => {
     const verifyUser = async () => {
       try {
         const { data } = await axios.post(
-          "http://localhost:3004/",
+          `${API_URL}`,
           {},
           { withCredentials: true }
         );
