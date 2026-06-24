@@ -41,7 +41,7 @@ const Signup = () => {
 
     try {
       const { data } = await axios.post(
-        "http://localhost:3004/signup",
+        "https://tradingplatform-nulv.onrender.com/signup",
         {
           ...inputValue,
         },

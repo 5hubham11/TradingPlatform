@@ -18,7 +18,7 @@ export default function NavBar() {
   const Logout = async () => {
     try {
       await axios.post(
-        "http://localhost:3004/logout",
+        "https://tradingplatform-nulv.onrender.com/logout",
         {},
         { withCredentials: true },
       );

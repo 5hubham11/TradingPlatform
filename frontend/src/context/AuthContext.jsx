@@ -13,7 +13,7 @@ export const AuthProvider = ({ children }) => {
     const verifyUser = async () => {
       try {
         const { data } = await axios.post(
-          "http://localhost:3004/",
+          "https://tradingplatform-nulv.onrender.com",
           {},
           { withCredentials: true }
         );

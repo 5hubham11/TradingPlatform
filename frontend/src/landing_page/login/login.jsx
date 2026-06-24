@@ -35,7 +35,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "http://localhost:3004/login",
+        "https://tradingplatform-nulv.onrender.com/login",
         {
           ...inputValue,
         },
