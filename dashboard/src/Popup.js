@@ -20,7 +20,7 @@ export default function Popup() {
           <button
             className="btn-login"
             onClick={() =>
-              (window.location.href = "http://localhost:5173/login")
+              (window.location.href = "https://tradingplatform-2.onrender.com/login")
             }
           >
             Login
@@ -29,7 +29,7 @@ export default function Popup() {
           <button
             className="btn-home"
             onClick={() =>
-              (window.location.href = "http://localhost:5173")
+              (window.location.href = "https://tradingplatform-2.onrender.com")
             }
           >
             Go Home
