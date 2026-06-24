@@ -1,5 +1,5 @@
 
-I have depoloyed this project on reder you can see----  https://tradingplatform-nulv.onrender.com
+I have depoloyed this project on reder you can see---- https://tradingplatform-2.onrender.com
 
 
 # TradingPlatform - Zerodha Clone
