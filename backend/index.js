@@ -24,7 +24,7 @@ app.use(
     origin: [
       "http://localhost:5173",
       "http://localhost:3000",
-      "https://tradingplatform-nulv.onrender.com",
+      "https://tradingplatform-2.onrender.com",
       "https://tradingplatform-l.onrender.com",
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
