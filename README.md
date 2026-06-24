@@ -1,3 +1,7 @@
+
+I have depoloyed this project on reder you can see----  https://tradingplatform-nulv.onrender.com
+
+
 # TradingPlatform - Zerodha Clone
 
 TradingPlatform is a full-stack stock trading application inspired by Zerodha, designed to simulate a modern online brokerage platform. The project consists of a public-facing landing website and a protected trading dashboard integrated through secure JWT-based authentication.
